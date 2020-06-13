@@ -1,0 +1,221 @@
+/* CSS do site "Big Star Sweets" */
+
+body {
+	background-color:#ffa7d7;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+#header {
+	width: 100%;
+	height:137px;
+	padding-top:10px;
+}
+
+#logo {
+	width:400px;
+	height:400px;
+	position:relative;
+	left:50%;
+	margin-left:-170px;
+}
+
+#logoImg {
+	float: left;
+	width:400px;
+	height:400px;
+}
+
+#menu {
+	height:40px;
+	width:100%;
+	background-color:#eb4b5e;
+}
+
+.listaMenu {
+	width:550px;
+	position:relative;
+	left:50%;
+	margin-left:-300px;
+	margin-top:7px;
+}
+
+.listaMenu li {
+	display:inline-block;
+}
+
+.listaMenu li a {
+	text-decoration:none;
+	font-size:20px;
+	height:50px;
+	line-height:35px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.listaMenu li a:link,
+.listaMenu li a:visited {
+	color:white;
+}
+
+.listaMenu li a:hover {
+	color:#eb4b5e;
+	background-color:white;
+}
+
+#content {
+	width:1335px;
+	background-color:white;
+	position:relative;
+	left:50%;
+	margin-left:-667px;
+	top:310px;
+}
+
+#tituloConteudo {
+	color:#eb4b5e;
+	position:absolute;
+	text-align:center;
+	margin-bottom:10px;
+	right:380px;
+	font-size:40px;
+}
+
+#maisVendidos {
+	right:420px;
+	height:1400px;
+}
+
+#areaMaisVendidos table {
+	border-spacing:25px;
+	border-collapse:separate;
+	text-align:center;
+	padding-left:80px;
+	position:absolute;
+	top:100px;
+}
+
+#areaMaisVendidos td {
+	width:250px;
+	color:#eb4b5e;
+	font-size:20px;
+}
+
+#areaMaisVendidos td img {
+	width:350px;
+	height:350px;
+	margin-top:5px;
+}
+
+#maisDoces {
+	position:absolute;
+	margin-bottom:10px;
+	right:400px;
+	top:1100px;
+}
+
+#linkDoces {
+	color:#eb4b5e;
+	font-size:40px;
+	text-align:center;
+	text-decoration:none;
+}
+
+#tituloDoces {
+	color:#eb4b5e;
+	position:absolute;
+	text-align:center;
+	margin-bottom:10px;
+	right:580px;
+	font-size:40px;
+}
+
+#docesDiversos {
+	right:420px;
+	height:2000px;
+}
+
+#docesDescricao {
+	right:420px;
+	height:1000px;
+}
+
+#fotoDoce {
+	width:400px;
+	height:400px;
+	border-radius:50%;
+	position:absolute;
+	right:470px;
+	top:140px;
+}
+
+
+#tituloTortaLimao {
+	color:#eb4b5e;
+	position:absolute;
+	text-align:center;
+	margin-bottom:10px;
+	right:540px;
+}
+
+#descricao {
+	position:absolute;
+	top:600px;
+	text-align:center;
+	color:#eb4b5e;
+}
+
+#tituloMiniTorta {
+	color:#eb4b5e;
+	position:absolute;
+	text-align:center;
+	margin-bottom:10px;
+	right:480px;
+}
+
+#tituloMiniTortaFV {
+	color:#eb4b5e;
+	position:absolute;
+	text-align:center;
+	margin-bottom:10px;
+	right:380px;
+}
+
+#tituloBrigadeiro {
+	color:#eb4b5e;
+	position:absolute;
+	text-align:center;
+	margin-bottom:10px;
+	right:580px;
+}
+
+#descricaoSobre {
+	color:#eb4b5e;
+	font-size:20px;
+	text-indent:40px;
+	position:absolute;
+	text-align:justify;
+	padding-right:120px;
+	padding-left:120px;
+	top:600px;
+}
+
+#descricaoDoces {
+	color:#eb4b5e;
+	font-size:20px;
+	position:absolute;
+	text-align:justify;
+	padding-right:320px;
+	padding-left:320px;
+	top:600px;
+}
+
+#descricaoContato {
+	color:#eb4b5e;
+	font-size:20px;
+	position:absolute;
+	text-align:justify;
+	padding-right:520px;
+	padding-left:520px;
+	top:160px;
+}
